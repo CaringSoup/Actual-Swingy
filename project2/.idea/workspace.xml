@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6b87b510-696c-4d9a-ab7d-0c7449dccf81" name="Default Changelist" comment="" />
+    <list default="true" id="6b87b510-696c-4d9a-ab7d-0c7449dccf81" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project2/META-INF/project2.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project2/game_state/Game$ChoiceHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project2/game_state/Game$ChoiceHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project2/game_state/Game$TitleScreenHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project2/game_state/Game$TitleScreenHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project2/game_state/UI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project2/game_state/UI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/save.text" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/save.txt" beforeDir="false" afterPath="$PROJECT_DIR$/save.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game_state/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game_state/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game_state/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game_state/UI.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,10 +27,19 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1TSmtqLdS39SD2vzDkuLcsVIDCy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -70,10 +91,25 @@
       <workItem from="1573462098498" duration="15884000" />
       <workItem from="1573535914815" duration="12281000" />
       <workItem from="1573622569005" duration="4382000" />
+      <workItem from="1573632994108" duration="3161000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

@@ -43,7 +43,7 @@ public class UI {
             textPanel.add(uName);
 
             startButtonPanel = new JPanel();
-            startButtonPanel.setBounds(window.getWidth()/2 - 100, 400, 200, 100);
+            startButtonPanel.setBounds(window.getWidth()/2 - 100, 400, 200, 200);
             startButtonPanel.setBackground(Color.black);
             startButton = new JButton("START");
             startButton.setBackground(Color.black);
@@ -58,9 +58,8 @@ public class UI {
             loadButton.setForeground(Color.black);
             loadButton.setFont(normalFont);
             loadButton.setFocusPainted(false);
-//            loadButton.addActionListener(tsHandler);
+            loadButton.addActionListener(cHandler);
             loadButton.setActionCommand("load");
-            loadButton.setBorder(null);
             startButtonPanel.add(loadButton);
 
             window.add(startButtonPanel);
@@ -70,12 +69,12 @@ public class UI {
 
             // GAME SCREEN
             mainTextPanel = new JPanel();
-            mainTextPanel.setBounds(window.getWidth()/2 - 100, 100, 600, 250);
+            mainTextPanel.setBounds(window.getWidth()/2 - 300, 100, 600, 250);
             mainTextPanel.setBackground(Color.black);
             window.add(mainTextPanel);
 
             mainTextArea = new JTextArea("This is the main text area");
-            mainTextArea.setBounds(window.getWidth()/2 - 100, 100, 600, 250);
+            mainTextArea.setBounds(window.getWidth()/2 - 300, 100, 600, 250);
             mainTextArea.setBackground(Color.black);
             mainTextArea.setForeground(Color.white);
             mainTextArea.setFont(normalFont);
@@ -85,9 +84,9 @@ public class UI {
             mainTextPanel.add(mainTextArea);
 
             choiceButtonPanel = new JPanel();
-            choiceButtonPanel.setBounds(window.getWidth()/2 - 250, 350, 300, 150);
+            choiceButtonPanel.setBounds(window.getWidth()/2 - 150, 350, 300, 150);
             choiceButtonPanel.setBackground(Color.black);
-            choiceButtonPanel.setLayout(new GridLayout(5, 1));
+            choiceButtonPanel.setLayout(new GridLayout(6, 1));
             window.add(choiceButtonPanel);
 
             choice1 = new JButton("choice1");
@@ -170,10 +169,10 @@ public class UI {
 
     public void createGameScreen(String startOrLoad) {
 
-        if (startOrLoad.equals("Start")) {
+        if (startOrLoad.equals("start")) {
 //            playerSetup;
         }
-        if (startOrLoad.equals("Load")) {
+        if (startOrLoad.equals("load")) {
             loadData();
         }
     }
