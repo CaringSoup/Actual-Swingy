@@ -188,9 +188,9 @@ public class UI {
 //            bw.newLine();
             bw.write(Story.me.player.currentWeapon.name);
             bw.newLine();
-            bw.write("" +Story.me.player.currentWeapon.damage);
+            bw.write(String.valueOf(Story.me.player.currentWeapon.damage));
             bw.newLine();
-            bw.write(Story.me.player.name);
+            bw.write(((!Story.me.player.name.isEmpty()) ? Story.me.player.name : "BITCH"));
             bw.newLine();
         } catch (IOException e) {
             e.printStackTrace();
@@ -211,10 +211,19 @@ public class UI {
         BufferedReader br = null;
         try {
             br = new BufferedReader(new FileReader("save.txt"));
-            p.hp = Integer.parseInt(br.readLine());
-//            Story.me.monster.hp = Integer.parseInt(br.readLine());
+            try
+            {
+                p.hp = Integer.parseInt(br.readLine());
+            } catch (NumberFormatException e) {
+                p.hp = 50;
+            }
             p.currentWeapon.name = br.readLine();
-            p.currentWeapon.damage = Integer.parseInt(br.readLine());
+            try
+            {
+                p.currentWeapon.damage = Integer.parseInt(br.readLine());
+            } catch (NumberFormatException e) {
+                p.currentWeapon.damage = 3;
+            }
             p.name = br.readLine();
         }
         catch(Exception e) {
