@@ -2,17 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b87b510-696c-4d9a-ab7d-0c7449dccf81" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/save.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project2/game_state/UI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project2/game_state/UI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/save" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/save.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game_state/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game_state/UI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project2/artifacts/SuperWeapon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project2/artifacts/Weapon_DoubleSided_Axe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project2/artifacts/Weapon_Knife.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project2/game_state/Game$ChoiceHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project2/game_state/Game$TitleScreenHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project2/game_state/Game.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project2/game_state/Player.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project2/game_state/Story.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project2/game_state/UI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project2/game_state/VisibilityManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project2/villans/Monster_Goblin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project2/villans/Monster_Troll.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project2/villans/SuperMonster.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/project2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/artifacts/SuperWeapon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/artifacts/Weapon_DoubleSided_Axe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/artifacts/Weapon_Knife.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game_state/Game.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game_state/Player.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game_state/Story.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game_state/UI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game_state/VisibilityManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/villans/Monster_Goblin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/villans/Monster_Troll.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/villans/SuperMonster.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="hideWarnings" value="true" />
+    <option name="HIDE_WARNINGS" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -23,6 +52,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectId" id="1TSmtqLdS39SD2vzDkuLcsVIDCy" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -86,7 +122,7 @@
       <workItem from="1573535914815" duration="12281000" />
       <workItem from="1573622569005" duration="4382000" />
       <workItem from="1573632994108" duration="3161000" />
-      <workItem from="1573719914510" duration="3876000" />
+      <workItem from="1573719914510" duration="5301000" />
     </task>
     <servers />
   </component>
