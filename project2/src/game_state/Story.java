@@ -58,6 +58,7 @@ public class Story {
             case "ending": ending(); break;
             case "toTitle": toTitle(); break;
             case "save": ui.saveData(); break;
+            case "load": ui.loadData(); break;
         }
     }
 
@@ -99,6 +100,7 @@ public class Story {
             ui.choice4.setVisible(false);
 
             game.nextPosition1 = "townGate";
+            game.nextPosition5 = "save";
         }
         else if (silverRing == 1) {
             ending();
@@ -117,6 +119,7 @@ public class Story {
         ui.choice5.setVisible(true);
 
         game.nextPosition1 = "townGate";
+        game.nextPosition5 = "save";
     }
     public void crossRoad() {
 
@@ -137,6 +140,7 @@ public class Story {
         game.nextPosition2 = "east";
         game.nextPosition3 = "townGate";
         game.nextPosition4 = "west";
+        game.nextPosition5 = "save";
 
     }
     public void north() {
@@ -151,11 +155,13 @@ public class Story {
         ui.choice4.setVisible(false);
 
         game.nextPosition1 = "crossRoad";
+        game.nextPosition5 = "save";
     }
     public void east() {
         ui.mainTextArea.setText("You walked into a mysterious yet magical forrest. You find a double sided Axe lying next to ruins.\n\n(Double-sided axe acquired)");
         player.currentWeapon = new Weapon_DoubleSided_Axe();
         ui.weaponNameLabel.setText(player.currentWeapon.name);
+        player.currentWeapon.damage = 9;
 
         ui.choice1.setText("Go west");
         ui.choice2.setVisible(false);
@@ -163,6 +169,7 @@ public class Story {
         ui.choice4.setVisible(false);
 
         game.nextPosition1 = "crossRoad";
+        game.nextPosition5 = "save";
     }
     public void west() {
 
@@ -184,6 +191,7 @@ public class Story {
 
         game.nextPosition1 = "fight";
         game.nextPosition2 = "crossRoad";
+        game.nextPosition5 = "save";
     }
     public void fight() {
 
@@ -199,6 +207,7 @@ public class Story {
 
         game.nextPosition1 = "playerAttack";
         game.nextPosition2 = "crossRoad";
+        game.nextPosition5 = "save";
 
     }
     public void playerAttack() {
@@ -219,9 +228,11 @@ public class Story {
 
         if (monster.hp >= 1) {
             game.nextPosition1 = "monsterAttack";
+            game.nextPosition5 = "save";
         }
         else {
             game.nextPosition1 = "win";
+            game.nextPosition5 = "save";
         }
     }
     public void monsterAttack() {
@@ -240,9 +251,11 @@ public class Story {
 
         if (player.hp > 0) {
             game.nextPosition1 = "fight";
+            game.nextPosition5 = "save";
         }
         else if (player.hp < 1) {
             game.nextPosition1 = "lose";
+            game.nextPosition5 = "save";
         }
     }
     public void win() {
@@ -257,6 +270,7 @@ public class Story {
         ui.choice4.setVisible(false);
 
         game.nextPosition1 = "crossRoad";
+        game.nextPosition5 = "save";
     }
     public void lose() {
 
@@ -269,6 +283,7 @@ public class Story {
         ui.choice5.setVisible(false);
 
         game.nextPosition1 = "toTitle";
+        game.nextPosition5 = "save";
     }
     public void ending() {
 
@@ -281,10 +296,15 @@ public class Story {
         ui.choice5.setVisible(false);
 
         game.nextPosition1 = "toTitle";
+        game.nextPosition5 = "save";
     }
     public void toTitle() {
 
         defaultSetup();
         vm.showTitleScreen();
+    }
+    public void load() {
+
+
     }
 }

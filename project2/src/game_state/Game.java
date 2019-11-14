@@ -52,7 +52,7 @@ public class Game {
             switch (yourChoice) {
 
                 case "start": vm.titleToTown(); story.townGate(); break;
-                case "load": vm.titleToTown(); story.townGate(); break;
+                case "load": vm.titleToTown(); story.townGate(); ui.loadData(); break;
                 case "c1": story.selectPosition(nextPosition1); break;
                 case "c2": story.selectPosition(nextPosition2); break;
                 case "c3": story.selectPosition(nextPosition3); break;

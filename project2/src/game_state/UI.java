@@ -182,13 +182,15 @@ public class UI {
         BufferedWriter bw = null;
         try {
             bw = new BufferedWriter(new FileWriter("save.txt"));
-            bw.write(Story.me.player.hp);
+            bw.write("" + Story.me.player.hp);
             bw.newLine();
-            bw.write(((Story.me.monster != null) ? Story.me.monster.hp : -10));
-            bw.newLine();
+//            bw.write(((Story.me.monster != null) ? Story.me.monster.hp : -10));
+//            bw.newLine();
             bw.write(Story.me.player.currentWeapon.name);
             bw.newLine();
-            bw.write(Story.me.player.currentWeapon.damage);
+            bw.write("" +Story.me.player.currentWeapon.damage);
+            bw.newLine();
+            bw.write(Story.me.player.name);
             bw.newLine();
         } catch (IOException e) {
             e.printStackTrace();
@@ -210,9 +212,10 @@ public class UI {
         try {
             br = new BufferedReader(new FileReader("save.txt"));
             p.hp = Integer.parseInt(br.readLine());
-            Story.me.monster.hp = Integer.parseInt(br.readLine());
+//            Story.me.monster.hp = Integer.parseInt(br.readLine());
             p.currentWeapon.name = br.readLine();
             p.currentWeapon.damage = Integer.parseInt(br.readLine());
+            p.name = br.readLine();
         }
         catch(Exception e) {
             e.printStackTrace();
@@ -226,6 +229,10 @@ public class UI {
                 }
             }
         }
+        hpNumberLabel.setText(String.valueOf(p.hp));
+        weaponNameLabel.setText(p.currentWeapon.name);
+        Story.me.player.currentWeapon.damage = p.currentWeapon.damage;
+        uName.setText(p.name);
     }
 
 }

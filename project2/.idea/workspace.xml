@@ -2,16 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b87b510-696c-4d9a-ab7d-0c7449dccf81" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project2/META-INF/project2.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project2/artifacts/SuperWeapon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project2/artifacts/SuperWeapon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project2/artifacts/Weapon_DoubleSided_Axe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project2/artifacts/Weapon_DoubleSided_Axe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project2/artifacts/Weapon_Knife.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project2/artifacts/Weapon_Knife.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/project2/game_state/Game$ChoiceHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project2/game_state/Game$ChoiceHandler.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/project2/game_state/Game$TitleScreenHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project2/game_state/Game$TitleScreenHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project2/game_state/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project2/game_state/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project2/game_state/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project2/game_state/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project2/game_state/Story.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project2/game_state/Story.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/project2/game_state/UI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project2/game_state/UI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/save.text" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project2/game_state/VisibilityManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project2/game_state/VisibilityManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project2/villans/Monster_Goblin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project2/villans/Monster_Goblin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project2/villans/Monster_Troll.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project2/villans/Monster_Troll.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project2/villans/SuperMonster.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project2/villans/SuperMonster.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/save.txt" beforeDir="false" afterPath="$PROJECT_DIR$/save.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/game_state/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game_state/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game_state/Story.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game_state/Story.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/game_state/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game_state/UI.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -92,6 +100,7 @@
       <workItem from="1573535914815" duration="12281000" />
       <workItem from="1573622569005" duration="4382000" />
       <workItem from="1573632994108" duration="3161000" />
+      <workItem from="1573719914510" duration="3127000" />
     </task>
     <servers />
   </component>
@@ -103,7 +112,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
